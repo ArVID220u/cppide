@@ -20,6 +20,7 @@
         var updatecount = 0;
 
         function runbutton() {
+            document.getElementById("output").value = "";
             var cppfile = editor.getSession().getValue();
             var inputfile = document.getElementById("input").value;
             var xhr = new XMLHttpRequest();
